@@ -5,13 +5,11 @@
 ### Note
 This Webpage is still a Work In Progress
 
+## Workshops
+- [Robotic Arm](https://github.com/NTU-Mecatron/Robotic-Arm-Workshop)
+- [EduBoat](https://github.com/NTU-Mecatron/EduBoat-Workshop)
+- [Computer Vision](https://github.com/NTU-Mecatron/Computer-Vision-Workshop)
 
 ## Open Source Public resources
-[WIP]
-
-
-## Workshops
-
-- [Computer Vision](https://github.com/NTU-Mecatron/Computer-Vision-Workshop)
-- [Robotic Arm](https://github.com/NTU-Mecatron/Robotic-Arm-Workshop)
+Stay tuned!
 
