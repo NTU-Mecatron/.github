@@ -21,10 +21,10 @@ This applies to everyone, including code owners.
 
 ### 2. Make Changes in Git Submodules, Not the Workspace Root
 
-> Notes:
+> **Notes**:
 > We use `auv_ws` repository as an example in this contribution guide. The same rules should be applied to other packages in Mecatron Organiation.
 
-Your changes must be committed to the appropriate submodules inside `auv_ws/src`, not directly to the `auv_ws` repository. (Except for adding new submodules, or change docs. Those should be advised by code owner and be careful to make changes on `auv_ws`)
+If the repository contains submodule and your changes are related to those submodules. You must `git commit` in the appropriate submodules, not directly in the parent repository. For example, when you want to make changes in `auv_ws` repository:
 
 **Incorrect approach:**
 ```bash
@@ -34,7 +34,7 @@ git checkout -b new-feature  # ❌ Wrong location
 
 **Correct approach:**
 ```bash
-cd auv_ws/src/related_package  # e.g., BehaviorTree, vision_msgs, etc.
+cd auv_ws/src/git_submodule  # e.g., BehaviorTree, vision_msgs, etc.
 git checkout -b new-feature    # ✓ Correct location
 
 # Make your changes, then:
@@ -42,7 +42,7 @@ git commit -am "Add feature description"
 git push -u origin new-feature
 ```
 
-Each submodule has its own git history and should be managed independently.
+Each submodule has its own git history and should be managed independently. If you wish to git changes the parent repository, please discuss with leads or in-charge person to clarify before making changes.
 
 ## Checklist
 - Use same style and formatting as rest of code even if it's not your preferred one.
