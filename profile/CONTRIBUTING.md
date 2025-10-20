@@ -2,8 +2,7 @@
 
 ## Quick Start
 - Please read our [short and sweet coding guidelines](./docs/coding_guidelines.md).
-- Use our [recommended development workflow](./docs/dev_workflow.md) to make changes and test it.
-- Use [first contributions](https://github.com/firstcontributions/first-contributions) to make contributions just like other GitHub projects.
+- Use [first contributions](https://github.com/firstcontributions/first-contributions) to practice making contributions just like other GitHub projects.
 
 ## Checklist
 - Use same style and formatting as rest of code even if it's not your preferred one.
@@ -21,10 +20,10 @@
 
 Never push changes directly to the main branch, regardless of your role. Follow this workflow:
 
-1. Create a feature branch from main branch and develop your changes
-2. Push your branch and open a pull request
+1. Create a new feature branch from the main branch and develop your changes there. Use a clear, consistent naming format. Recommended format is `type/new-feature`, for example, `feat/develop-new-algorithm`. Each branch should focus on a single feature or change.
+2. Push your branch and open a pull request (PR). The PR description should be clear and descriptive, explaining the purpose of the change and what has been modified. Resolve any conflicts with the main branch before requesting review. 
 3. Request review from the code owner or designated reviewers
-4. Before merging, pull the latest main branch into your feature branch and resolve any conflicts
+4. Before merging, merge the latest main branch into your feature branch and resolve any conflicts
 5. Merge your feature branch into main with **SQUASH & MERGE** once all reviewers approve. This is to help the git history tree clean and easy to trace back
 
 This applies to everyone, including code owners.
