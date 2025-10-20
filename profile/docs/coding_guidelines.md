@@ -15,15 +15,6 @@ For coding guidelines for specific programming language, please refer: https://g
 
 ---
 
-## Recommended workflow
-
-1. Quick poking / prototype / throwaway code.
-2. Form an attack plan (approach, interfaces, tests, roll-back strategy).
-3. Review the plan with a leader or peer; revise as needed.
-4. Implement, test, and create a clear PR with context and testing notes.
-
----
-
 ## File and formatting conventions
 
 * Follow the repository's existing conventions (indent style, file header, license block) before introducing anything new.
