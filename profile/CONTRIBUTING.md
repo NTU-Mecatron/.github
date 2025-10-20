@@ -22,7 +22,7 @@ This applies to everyone, including code owners.
 ### 2. Make Changes in Git Submodules, Not the Workspace Root
 
 > Notes:
-> We use `auv_ws` repository as an example in this contribution guide.
+> We use `auv_ws` repository as an example in this contribution guide. The same rules should be applied to other packages in Mecatron Organiation.
 
 Your changes must be committed to the appropriate submodules inside `auv_ws/src`, not directly to the `auv_ws` repository. (Except for adding new submodules, or change docs. Those should be advised by code owner and be careful to make changes on `auv_ws`)
 
