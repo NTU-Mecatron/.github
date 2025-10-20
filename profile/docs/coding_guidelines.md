@@ -1,0 +1,57 @@
+# Coding Guidelines
+
+**Purpose**
+Provide a compact, practical set of coding guidelines for contributors so code in this repository remains readable, consistent, and easy to maintain. These rules are intentionally pragmatic 
+
+For coding guidelines for specific programming language, please refer: https://google.github.io/styleguide/
+---
+
+## Principles (keep these first in mind)
+
+* **Consistency over preference.** Follow the existing style and conventions used in the package even if you prefer a different style.
+* **Keep it simple.** Implement features in the simplest, most maintainable way that meets requirements. Avoid fancy techniques unless they clearly add value.
+* **Iterate quickly.** Prototype and validate ideas early (throwaway prototypes are OK).
+* **Communicate.** Discuss the plan with your lead or the person-in-charge before implementation.
+
+---
+
+## Recommended workflow
+
+1. Quick poking / prototype / throwaway code.
+2. Form an attack plan (approach, interfaces, tests, roll-back strategy).
+3. Review the plan with a leader or peer; revise as needed.
+4. Implement, test, and create a clear PR with context and testing notes.
+
+---
+
+## File and formatting conventions
+
+* Follow the repository's existing conventions (indent style, file header, license block) before introducing anything new.
+* Indentation: match existing code (tabs or spaces — don’t change global style in a single PR).
+* Files: add a short file header only if the repository already uses one.
+
+---
+
+## Naming and organization
+
+* Use descriptive, unambiguous names for variables, functions, classes and modules.
+* Prefer short functions with a single responsibility.
+* Public APIs: document expected inputs, outputs, side-effects, and error cases.
+
+---
+
+## Code style and readability
+
+* Prefer clarity over cleverness.
+* Use small helper functions to make intent explicit rather than long comments explaining complex code.
+* Add comments to explain *why*, not *what*; write the *what* in clear code or a short docstring.
+* Keep unit-testable design in mind (dependency injection where it makes sense).
+
+---
+
+## When to discuss before coding
+
+* Broad design changes or API additions.
+* Any change that alters behavior visible to other teams.
+* Infrastructure or build changes.
+* When you are unsure of the correct approach.
