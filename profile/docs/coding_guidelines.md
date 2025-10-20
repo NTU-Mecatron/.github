@@ -32,26 +32,9 @@ For coding guidelines for specific programming language, please refer: https://g
 
 ---
 
-## Naming and organization
-
-* Use descriptive, unambiguous names for variables, functions, classes and modules.
-* Prefer short functions with a single responsibility.
-* Public APIs: document expected inputs, outputs, side-effects, and error cases.
-
----
-
 ## Code style and readability
 
 * Prefer clarity over cleverness.
 * Use small helper functions to make intent explicit rather than long comments explaining complex code.
 * Add comments to explain *why*, not *what*; write the *what* in clear code or a short docstring.
 * Keep unit-testable design in mind (dependency injection where it makes sense).
-
----
-
-## When to discuss before coding
-
-* Broad design changes or API additions.
-* Any change that alters behavior visible to other teams.
-* Infrastructure or build changes.
-* When you are unsure of the correct approach.
