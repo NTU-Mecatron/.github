@@ -19,7 +19,6 @@ For coding guidelines for specific programming language, please refer: https://g
 
 * Follow the repository's existing conventions (indent style, file header, license block) before introducing anything new.
 * Indentation: match existing code (tabs or spaces — don’t change global style in a single PR).
-* Files: add a short file header only if the repository already uses one.
 
 ---
 
