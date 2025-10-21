@@ -5,6 +5,10 @@
 ### Note
 This Webpage is still a Work In Progress
 
+## Contributing
+
+Please refer to this [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+
 ## Workshops
 - [Robotic Arm](https://github.com/NTU-Mecatron/Robotic-Arm-Workshop)
 - [EduBoat](https://github.com/NTU-Mecatron/EduBoat-Workshop)
